@@ -17,6 +17,18 @@ Measure-Command {
 ```
 
 ```
+@{Host=192.168.1.1; Status=Success; Time=0; Address=192.168.1.1}
+@{Host=192.168.1.28; Status=DestinationHostUnreachable; Time=0; Address=192.168.1.80}
+@{Host=192.168.1.27; Status=DestinationHostUnreachable; Time=0; Address=192.168.1.80}
+@{Host=192.168.1.26; Status=DestinationHostUnreachable; Time=0; Address=192.168.1.80}
+@{Host=192.168.1.25; Status=DestinationHostUnreachable; Time=0; Address=192.168.1.80}
+@{Host=192.168.1.24; Status=DestinationHostUnreachable; Time=0; Address=192.168.1.80}
+@{Host=192.168.1.23; Status=DestinationHostUnreachable; Time=0; Address=192.168.1.80}
+@{Host=192.168.1.22; Status=DestinationHostUnreachable; Time=0; Address=192.168.1.80}
+
+(snip...)
+
+
 Days              : 0
 Hours             : 0
 Minutes           : 0
