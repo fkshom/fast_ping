@@ -1,5 +1,4 @@
 try {
-    Import-Module .\Invoke-WithRateLimited.psm1
     Import-Module .\Ping-MultipleHosts.psm1
 
     $DebugPreference = 'Continue'
